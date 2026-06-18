@@ -331,15 +331,36 @@ a:focus-visible, button:focus-visible{
   outline:3px solid var(--terracotta); outline-offset:2px;
 }
 .student-grid {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px 22px;
+  justify-content: center;
 }
 
 .student {
-    text-align: center;
-    width: 150px;
+  width: 120px;
+  text-align: center;
+}
+
+.student .avatar {
+  width: 104px;
+  height: 104px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #fff;
+  box-shadow: 0 6px 16px rgba(43,32,23,0.12);
+  margin: 0 auto 10px;
+  display: block;
+}
+
+.student .name {
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+.student .tag {
+  font-size: 0.78rem;
+  color: #bc5a34;
 }
    
    
